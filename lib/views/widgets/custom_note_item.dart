@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class NotesItem extends StatelessWidget {
   const NotesItem({super.key});
-
+  final data = const [Colors.yellow, Colors.blue, Colors.pink];
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -24,7 +24,7 @@ class NotesItem extends StatelessWidget {
               child: Text(
                 'Build your career with Mohamed Ahmed',
                 style: TextStyle(
-                    color: Colors.black.withOpacity(0.4), fontSize: 16),
+                    color: Colors.black.withOpacity(0.4), fontSize: 18),
               ),
             ),
             trailing: IconButton(
